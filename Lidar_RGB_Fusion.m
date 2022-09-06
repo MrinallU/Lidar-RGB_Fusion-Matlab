@@ -1,3 +1,5 @@
+%Lidar is right above / below the camera so the theta parameter would be 0, 180, 90, 270 ect... 
+%X and Z should be 0, Y is some non zero value
 
 % Outster to ptcloud
 zipFile = matlab.internal.examples.downloadSupportFile("lidar","data/ouster_RoadIntersection.zip");
